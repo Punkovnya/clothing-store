@@ -1,0 +1,52 @@
+[
+  {
+    "item": 0,
+    "items": "<div class=textmodal> strangergear пальто 011</div> </br>Асимметричный фасон, прошитые панели, <br> заостренный воротник, длинные рукава, манжеты на пуговицах и застежка на пуговицах спереди. Цвет:коричневый. </br>Размер указывается при оформлении заказа</div></br> <div class=textprice>$1000 USD</div>",
+    "buy": "<button type= button   class= btn-secondary  onclick=buy1()   data-dismiss= modal >В корзину</button></div>"
+  },
+
+  {
+    "item": 1,
+    "items": "<div class=textmodal>strangergear кофта 010</div> </br> Деконструктивный крой,высоки воротник, </br> зеленые элементы, длинные рукава и драпировка на плечах.Цвет:черный. </br>Размер указывается при оформлении заказа</br> <div class=textprice>$650 USD</div>",
+    "buy": "<button type= button   class= btn-secondary  onclick=buy2()   data-dismiss= modal >В корзину</button></div>"
+  },
+
+  {
+    "item": 2,
+    "items": "<div class=textmodal>strangergear рубашка 100</div> </br> Вышитый дизайн, свободный крой, классический воротник, </br> застежка на пуговицы, длинные рукава средней длины.Цвет:черный. </br>Размер указывается при оформлении заказа</br> <div class=textprice>$700 USD</div>",
+    "buy": "<button type= button   class= btn-secondary  onclick=buy3()   data-dismiss= modal >В корзину</button></div>"
+  },
+
+  {
+    "item": 3,
+    "items": "<div class=textmodal>strangergear куртка 101</div> </br> Узкий крой, высокая горловина , застежка на молнии спереди,</br> классический воротник, контрастные вставки и длинные рукава. Цвет: черный. </br>Размер указывается при оформлении заказа</br> <div class=textprice>$800 USD</div>",
+    "buy": "<button type= button   class= btn-secondary  onclick=buy4()   data-dismiss= modal >В корзину</button></div>"
+  },
+
+  {
+    "item": 4,
+    "items": "<div class=textmodal>strangergear пальто 011</div> </br>  Свободный крой, застежка на пуговицы, V-образная горловина,</br> длинные рукава и средней длины. Цвет: черный.Цвет:коричневый. </br>Размер указывается при оформлении заказа </br> <div class=textprice>$1110 USD</div>",
+    "buy": "<button type= button   class= btn-secondary  onclick=buy5()   data-dismiss= modal >В корзину</button></div>"
+  },
+
+  {
+    "item": 5,
+    "items": "<div class=textmodal>strangergear пальто 011</div> </br>  Зазубренный воротник, длинные рукава, застежка на пуговицах спереди,  </br>передние карманы с клапанами и длина по колено. Цвет:черный. </br>Размер указывается при оформлении заказа </br> <div class=textprice>$1280 USD</div>",
+    "buy": "<button type= button   class= btn-secondary  onclick=buy6()   data-dismiss= modal >В корзину</button></div>"
+  },
+  {
+    "item": 6,
+    "items": "<div class=textmodal>strangergear кардиган 000</div> </br> Высокая горловина,  длинные рукава, приспущенные плечи, </br>застежка на пуговицах спереди и асимметричный подол. Цвет: черный. </br>Размер указывается при оформлении заказа </br> <div class=textprice>$600 USD</div>",
+    "buy": "<button type= button   class= btn-secondary  onclick=buy7()   data-dismiss= modal >В корзину</button></div>"
+  },
+  {
+    "item": 7,
+    "items": "<div class=textmodal>strangergear платье 111</div> </br> Асимметричный крой, расклешенный силуэт, острый вырез, </br> однотонные пуговицы. Цвет:красный. </br>Размер указывается при оформлении заказа </br> <div class=textprice>$550 USD</div>",
+    "buy": "<button type= button   class= btn-secondary  onclick=buy8()   data-dismiss= modal >В корзину</button></div>"
+  },
+  {
+    "item": 8,
+    "items": "<div class=textmodal>strangergear пальто 011</div> </br> Асимметричный фасон, прошитые панели, заостренный воротник, длинные рукава, </br>манжеты на пуговицах и застежка на пуговицах спереди. Цвет:коричневый. </br>Размер указывается при оформлении заказа </br> <div class=textprice>$1300 USD</div>",
+    "buy": "<button type= button   class= btn-secondary  onclick=buy9()   data-dismiss= modal >В корзину</button></div>"
+  }
+]

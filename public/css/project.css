@@ -1,0 +1,653 @@
+
+.slideshow {
+	padding-top:10%; 
+	width:100%;
+	height:auto;
+   transition:1s;
+  position: relative;
+  margin: auto;
+}
+.mySlides {
+
+    display: none;
+}
+
+
+.Flex{
+	   display:flex;
+	   flex-direction: row; 
+	   font-family:'let'; 
+		 align-content:center;
+		  align-items:center;
+		  justify-content:space-around;
+		flex-wrap:wrap;
+	}
+	.Flex3{
+   display:flex;
+	   flex-direction: row; 
+	   font-family:'let'; 
+		 align-content:center;
+		  align-items:center;
+		  justify-content:space-around;
+		flex-wrap:wrap;
+		overflow:hidden;
+	}
+
+
+
+
+/*модальное окно*/
+
+
+ .textprice{
+	margin-top:20px;
+	padding-top:10px;
+	font-weight:500;
+	font-size:25px;
+	border-top:solid 1px black;
+	
+}
+
+
+.textmodal{
+
+	padding-top:10px;
+	padding-bottom:10px;
+	font-weight:500;
+	font-size:18px;
+	border-bottom:solid 1px black;
+	
+}
+.modal-content{
+	
+	height:auto;
+	 background-color:#dfdfe1;
+	 text-align:center;
+	 border: none;
+margin: auto;
+}
+
+
+.modal-dialog{
+border:solid 1px red; /* адаптивность*/
+	background-color:#dfdfe1;
+	   text-align:center;
+	   margin: auto;
+	   height:auto;
+
+
+	 
+}
+
+.btn-secondary{
+	font-weight:500;
+	 border: 2px black;
+	 padding: 15px;
+	font-size: 25px;
+	 background-color:#dfdfe1;	
+	margin-bottom:10px; 
+	transition:all 0.3s;
+}
+.modal-image{
+	height: 200px;
+	width: auto;
+	float:left;
+}
+.modal-div
+{
+
+
+height: auto;
+padding-top:10px;
+padding-bottom:50px;
+padding-right:50px;
+padding-left:50px;
+
+}
+.modal-div2
+{
+
+
+display: inline;
+width:400px;
+height: auto;
+padding: auto;
+margin:10px;
+
+}
+.modal-footer{
+	height:100px;
+	text-align:center;
+}
+.btn-primary{
+
+  border:none;
+  background-color:#dfdfe1;	
+}
+	.modal{
+
+	      
+		 	padding-top: 100px;
+		 opacity:0.3;
+		 font-family:'let';
+	}
+
+	.text{
+		
+	z-index:1;
+	padding:5px;
+	font-weight:500;
+	font-size:18px;  /* адаптивность*/
+	text-indent:10px;
+	
+}
+   
+
+/*футер*/
+
+footer{
+  margin-top:40px; 
+  width: 100%; 
+   padding-top: 10px;
+
+     
+   
+}
+.FlexFooter{
+       
+       
+	   display:flex;
+	   flex-direction: row; 
+	   font-family:'let';
+	   padding:2%;
+		 align-content:center;
+		  align-items:center;
+		  justify-content:space-around;
+		flex-wrap:wrap;
+		text-indent:10%;
+
+
+	}
+	
+   .FlexFooter>div{
+   white-space:	nowrap;
+	 font-size:140%;
+     
+     width:auto;
+     padding-top:1%; 
+     padding-right:2%; 
+   color: white;
+      padding-bottom:1%; 
+     font-weight:500;
+     
+
+	}
+	
+
+
+/*хедер*/
+
+
+
+header{
+	
+	
+	z-index: 3;
+ position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+}
+		.Flex2{
+       background-color:#dfdfe1;
+     
+	   display:flex;
+	   flex-direction: row; 
+	   font-family:'let';
+	   padding:2%;
+		 align-content:center;
+		  align-items:center;
+		  justify-content:space-around;
+		flex-wrap:wrap;
+		text-indent:10%;
+
+
+	}
+	
+   .Flex2>div{
+   white-space:	nowrap;
+	 font-size:140%;
+     color:black;
+     width:auto;
+     padding-top:1%; 
+     padding-right:2%; 
+   
+      padding-bottom:1%; 
+     font-weight:500;
+     
+
+	}
+	
+
+
+
+
+/*             */
+
+
+
+
+
+	
+
+	/* адаптивность*/
+
+
+.image {
+	transition: 1s;
+  position: relative;
+  width: 400px;
+  height: auto;
+  cursor: pointer;
+ 
+  margin-top:10%;
+
+}
+
+#image2 {
+	
+  position: relative;
+  width: 400px;
+  height: auto;
+  cursor: pointer;
+ padding-bottom:30px;
+
+}
+
+.image1 {
+	transition: 1s;
+	margin-top: 10%;
+	position: relative;
+  width: 350px;
+  height: auto;
+cursor: pointer;
+}
+
+
+
+
+
+/* Загрузка и колючая проволка */
+#infodezign{
+		border-bottom:solid 1px black;
+    margin-right: 20%;
+	font-weight:600;
+	font-size:160%;
+	display:inline-block;
+	position: absolute;
+	left:20%;
+	top:25%;
+
+}
+.pr1{
+
+	padding-top:20%;  /* адаптивность*/
+	width:15%;
+	
+    left:5%;
+    top:20%;
+    padding:5px;
+    position: absolute;
+	display:inline-block;
+}
+
+
+.angel{
+	height:90%; 
+	width:auto
+}
+	#preloader_malc {
+		overflow-y:none;
+		position:fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: rgba(1, 0, 0, .2);
+		z-index: 99
+	}
+
+	#preloader_malc div {
+		text-align: center;
+		position: fixed;
+		z-index: 999;
+		top: 0;
+		left: 60px;
+		right: 0;
+		bottom: 0;
+		margin: auto
+	}
+	        
+
+
+/*             */
+
+
+/* Корзина*/
+	
+	
+
+
+#card-holder{
+	cursor: pointer;
+}
+	.card-item{
+		
+	margin-left:50px;
+	margin-right:50px;
+	padding-top:20px;
+	padding-bottom:20px;
+	border-bottom:solid 1px black;
+	}
+
+.text-card{
+	z-index:1;
+	
+	font-weight:500;
+	font-size:18px;  /* адаптивность*/
+	text-indent:10px;
+}
+	#card{
+		height: 60%; /* Full-height: remove this if you want "auto" height */
+    width:100%; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right:0;
+    background-color:#ececec; /* Black */
+    overflow-y:auto;
+    padding-top: 20px;
+ 
+    display:none;
+    z-index:3;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+    border-bottom: 2px solid red;
+    white-space: nowrap;
+  
+   
+     
+}
+
+
+.textClose{
+		margin-right:50px;
+		padding-right:50px;
+	cursor:pointer;
+	margin-left: 50px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	padding-top:15px;
+	padding-bottom:15px;
+	font-weight:600;
+	font-size:150%;
+	border-bottom:solid 1px black;
+	
+}
+
+#buttonBuy{
+
+margin-left:40%;
+margin-right:50%;
+cursor:pointer;
+font-weight:600;
+font-size:150%;
+margin-top: 30px;
+margin-bottom: 30px;
+
+}
+.minus{
+
+	-moz-user-select: none;
+-khtml-user-select: none;
+user-select: none;   
+display:inline-block;
+  margin-left: 7px;
+  width: 38px;
+  padding:0px;
+  height: 40px;
+ text-align: center;
+  font-size:27px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: solid 1px black;
+
+}
+
+#all-price{
+padding-top:20px;
+font-size:200%;
+line-height:10px;
+margin-left:60%;
+display: inline-block;
+
+}
+.price{
+padding-top:30px;
+font-size:170%;
+line-height:10px;
+margin-left:55%;
+display: inline-block;
+
+}
+.count{
+padding-top:30px;
+font-size:22px;
+line-height:10px;
+margin-left:10px;
+display: inline-block;
+
+}
+ 
+ .btn-secondary:hover{
+  box-shadow: 0px -5px 0 #a1a1a1  inset;
+}
+
+
+/*             */
+#img10{
+	padding-left:3%;
+	padding-right:1%;
+	width:96%;
+}
+
+@font-face 
+{font-family:let;/* Задаем имя шрифта */
+src:url('1243.ttf')}
+.image:hover{
+  transform: scale(1.2);
+}
+.image1:hover{
+  transform: scale(1.2);
+}
+a{
+color:black;
+text-decoration:none; 
+}
+a:hover{
+color:black;
+text-decoration:none; 
+}
+@-webkit-keyframes fade-in {   0% { opacity: 0.01; }   100% { opacity: 1; }   }
+@-moz-keyframes    fade-in {   0% { opacity: 0.01; }   100% { opacity: 1; }   }
+@-o-keyframes      fade-in {   0% { opacity: 0.01; }   100% { opacity: 1; }   }
+@keyframes         fade-in {   0% { opacity: 0.01; }   100% { opacity: 1; }   }
+ 
+body {
+  -webkit-animation: fade-in 2s linear; /* Safari 4+ */
+  -moz-animation: fade-in 2s linear; /* Fx 5+ */
+  -o-animation: fade-in 2s linear; /* Opera 12+ */
+  animation: fade-in 2s linear; /* IE 10+, Fx 29+ */
+}
+@media screen and (max-width:845px) {
+	#preloader_malc div {
+		text-align: center;
+		position: fixed;
+		z-index: 999;
+		top: 0;
+		left: 40px;
+		right: 0;
+		bottom: 0;
+		margin: auto
+	}
+	.angel{
+	height:80%; 
+	width:auto
+}
+	.image:hover{
+  transform: scale(1);
+}
+.image1:hover{
+  transform: scale(1);
+}
+	.pr1{
+	
+	display: none;
+	transform: rotate(90deg);
+}
+		#infodezign{
+    border-bottom:solid 1px black;
+    margin-right: 10%;
+	font-weight:600;
+	font-size:150%;
+	display:inline-block;
+	position: absolute;
+	left:10%;
+	top:30%;
+
+}
+
+		.card-item{
+		
+	margin-left:30px;
+	
+	}
+
+	
+  
+#card{
+		height: 85%; /* Full-height: remove this if you want "auto" height */
+     /* Set the width of the sidebar */   
+}
+.Flex2>div{
+   
+	 font-size:100%;
+     color:black;
+     width:auto;
+     padding-top:1%; 
+      padding-bottom:1%; 
+       padding-right:3%; 
+     font-weight:500;
+     
+
+	}
+
+
+
+
+/* адаптивность modal*/
+.btn-secondary{
+	
+	 padding: 5px;
+	font-size: 20px;
+	 background-color:#dfdfe1;	
+	 
+	transition:all 0.3s;
+}
+
+.modal-footer{
+	height:70px;
+	
+}
+.modal-dialog{
+    border:solid 1px red; /* адаптивность*/
+	background-color:#dfdfe1;
+	   text-align:center;
+	   margin: auto;
+	   height:auto;
+       width:350px;
+	 
+}
+.text{
+	padding:3px;
+	font-size:15px;  
+	
+}
+
+.textprice{
+	font-size:20px;
+}
+
+
+.textmodal{
+	font-size:13px;
+	
+}
+
+/* адаптивность modal*/
+
+
+
+
+
+
+
+.buy{
+	font-weight:700;
+	font-size:10px;
+	cursor:pointer;
+	 line-height:50px;
+}
+
+.slideshow{
+	display:none;
+	
+}
+.image1 {
+	margin-top: 20%;
+	
+}
+}
+@media screen and (max-width:500px) {
+.price{
+padding-top:30px;
+font-size:15px;
+line-height:10px;
+margin-left:40%;
+
+}
+.text-card{
+	z-index:1;
+	
+	font-weight:500;
+	font-size:12px;  /* адаптивность*/
+	text-indent:10px;
+}
+#all-price{
+font-size:15px;
+}
+#buttonBuy{
+
+
+font-size:110%;
+margin-left:35%;
+
+
+}
+.textClose{
+		
+	font-size:15px;
+	
+	
+}
+}
