@@ -5,7 +5,7 @@
     
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>>STRANGERGEAR</title>
+    <title>STRANGERGEAR</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
      <link href="css/project.css" rel="stylesheet" type="text/css">
     <meta charset="UTF-8">
@@ -18,7 +18,8 @@
        body{
         
        	 overflow-y:scroll;
-        background-image:url(/img/background.svg) 
+        background-image:url(img/background.svg);
+         background-color:black;
        }
    </style>
    
@@ -44,12 +45,7 @@
   </div>
   
 <body>
-	<div id="preloader_malc">
-     <div class="Flex">
-
-         <!-- <img class = "angel" src="img/start4.png" > -->
-     </div>
-     </div>
+	
 	   
     
 
@@ -63,7 +59,7 @@
     <div class="Flex2">
       <div  id="doc_time"> </div>
       <div style="font-weight:700;">ТОВАРЫ</div>
-      <div><a style="cursor:pointer" href="info.html">ИНФОРМАЦИЯ</a></div> 
+      <div><a style="cursor:pointer;color: white" href="info.html">О НАС</a></div> 
       
        <div style="cursor:pointer" id="card-holder">КОРЗИНА</div>
        </div>
@@ -97,31 +93,31 @@
   
   </div>
         
-        <img id="img1" class="image1" src="img/1.jpg" type="button" data-toggle="modal"  data-target="#exampleModal">        
-        <img id="img2" class="image" src="img/2.jpg" type="button" data-toggle="modal"  data-target="#exampleModal" >           
-        <img  id="img3"class="image1" src="img/3.jpg"  type="button" data-toggle="modal"  data-target="#exampleModal">
+        <img id="img1" class="image1" src="img/1.png" type="button" data-toggle="modal"  data-target="#exampleModal">        
+        <img id="img2" class="image" src="img/2.png" type="button" data-toggle="modal"  data-target="#exampleModal" >           
+        <img  id="img3"class="image1" src="img/3.png"  type="button" data-toggle="modal"  data-target="#exampleModal">
            
 
     </div>
     <div class="Flex">
 
-        <img id="img4" class="image" src="img/4.jpg"  type="button" data-toggle="modal"  data-target="#exampleModal"> 
-        <img id="img5" class="image1" src="img/5.jpg"  type="button" data-toggle="modal"  data-target="#exampleModal">
-        <img  id="img6" class="image" src="img/6.jpg"  type="button" data-toggle="modal"  data-target="#exampleModal">
+        <img id="img4" class="image" src="img/4.png"  type="button" data-toggle="modal"  data-target="#exampleModal"> 
+        <img id="img5" class="image1" src="img/5.png"  type="button" data-toggle="modal"  data-target="#exampleModal">
+        <img  id="img6" class="image" src="img/6.png"  type="button" data-toggle="modal"  data-target="#exampleModal">
        
         </div>
 
     <div class="Flex">
         
-        <img id="img7" class="image1" src="img/7.jpg"  type="button" data-toggle="modal"  data-target="#exampleModal">             
-        <img id="img8" class="image" src="img/8.jpg"  type="button" data-toggle="modal"  data-target="#exampleModal">    
-        <img id="img9" class="image1" src="img/9.jpg" type="button" data-toggle="modal"  data-target="#exampleModal">
+        <img id="img7" class="image1" src="img/7.png"  type="button" data-toggle="modal"  data-target="#exampleModal">             
+        <img id="img8" class="image" src="img/8.png"  type="button" data-toggle="modal"  data-target="#exampleModal">    
+        <img id="img9" class="image1" src="img/9.png" type="button" data-toggle="modal"  data-target="#exampleModal">
      
     </div>
     
     <footer><div class="FlexFooter">
-      <
-      <div></div>
+      
+      <div><img src ="img/footer.jpg"> </div>
       <div></div> 
       
        <div></div>
@@ -146,8 +142,8 @@ $(document).ready(function(){
  $("#card-holder").click(function(){
    $('#card').animate({width:'toggle'}, 450)
    $( "#card" ).css( {"filter":"blur(0px)"});
-    $(".Flex2" ).css( {"filter":"blur(7px)"});
-    $(".Flex" ).css( {"filter":"blur(7px)"});
+    $(".Flex2" ).css( {"filter":"blur(15px)"});
+    $(".Flex" ).css( {"filter":"blur(15px)"});
      $(".Flex2" ).css( {"pointer-events":" none"});
     $(".Flex" ).css( {"pointer-events":" none"});
      
@@ -193,7 +189,7 @@ var hours = d.getHours();
 var minutes = d.getMinutes();
 if (hours <= 9) hours = "0" + hours;
 if (minutes <= 9) minutes = "0" + minutes;
-date_time = ">STRANGERGEAR " + hours + ":" + minutes;
+date_time = "STRANGER " + hours + ":" + minutes;
  document.getElementById("doc_time").innerHTML = date_time;
  setTimeout("clock()", 1000);
 }
@@ -201,20 +197,7 @@ clock();
 
 
 
-let x=1;
-function op(){
-       document.getElementById("preloader_malc").style.opacity = x;
-        x=x-0.01;
-        if(x<0)
-         clearInterval(intervalID);
 
-}
-      var intervalID= setInterval("op()",40);
-        setTimeout(function() {
-            document.getElementById("preloader_malc").style.display = "none";
-            
-
-        }, 4600);
       
 
 

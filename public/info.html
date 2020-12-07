@@ -16,8 +16,9 @@
    		 overflow-y:scroll;
    	}
        body{
-        background-color:#ececec;
+         
        	 overflow-y:scroll;
+       	 background-color:black; 
 
        }
    </style>
@@ -30,17 +31,17 @@
 
    <header >  
   
-    
+    <!-- <div z-index=0><img src="img/background.svg"></div> -->
+   
     <div class="Flex2">
       <div  id="doc_time"> </div>
-      <div><a style="cursor:pointer" href="index.html">ТОВАРЫ</a></div>
+      <div><a style="cursor:pointer;color:white;" href="index.html">ТОВАРЫ</a></div>
       <div style="font-weight:700;">ИНФОРМАЦИЯ</div> 
       
-       <div><a style="cursor:pointer" href="https://www.instagram.com/">ПОДПИСАТЬСЯ</a></div>
+       <div><a style="cursor:pointer;color:white;" href="https://www.instagram.com/">ПОДПИСАТЬСЯ</a></div>
         
     </header>
-    
-<div class="Flex"><div><img  class="pr1" src="img/pr4.png" ></div></div>
+     <div class="pr1" z-index=0 align="center"><img src="img/background.svg"></div>	
 
 
 
@@ -68,7 +69,7 @@ var hours = d.getHours();
 var minutes = d.getMinutes();
 if (hours <= 9) hours = "0" + hours;
 if (minutes <= 9) minutes = "0" + minutes;
-date_time = ">STRANGERGEAR " + hours + ":" + minutes;
+date_time = "STRANGER " + hours + ":" + minutes;
  document.getElementById("doc_time").innerHTML = date_time;
  setTimeout("clock()", 1000);
 }
