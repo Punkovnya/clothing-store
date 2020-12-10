@@ -12,12 +12,10 @@
     <link rel="shortcut icon" href="img/favicon.ico" type="image/png">
     <!-- Custome Styles -->
    <style>
-   	html{
-   		 overflow-y:scroll;
-   	}
+   	
        body{
         
-       	 overflow-y:scroll;
+       	 
         background-image:url(img/background.svg);
          background-color:black;
        }
@@ -26,7 +24,7 @@
     <link rel="shortcut icon" href="img/favicon.png" type="image/png">
 
 </head>
- 
+ <script type="text/javascript" src="js/timer.js"></script>
       <div class="modal fade"id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     
@@ -57,7 +55,7 @@
   
     
     <div class="Flex2">
-      <div  id="doc_time"> </div>
+      <div  id="doc_time">END IN 00d:00h</div>
       <div style="font-weight:700;">ТОВАРЫ</div>
       <div><a style="cursor:pointer;color: white" href="info.html">О НАС</a></div> 
       
@@ -92,7 +90,7 @@
   </div>
   
   </div>
-        
+       
         <img id="img1" class="image1" src="img/1.png" type="button" data-toggle="modal"  data-target="#exampleModal">        
         <img id="img2" class="image" src="img/2.png" type="button" data-toggle="modal"  data-target="#exampleModal" >           
         <img  id="img3"class="image1" src="img/3.png"  type="button" data-toggle="modal"  data-target="#exampleModal">
@@ -117,113 +115,18 @@
     
     <footer><div class="FlexFooter">
       
-      <div><img src ="img/footer.jpg"> </div>
-      <div></div> 
+      <img src ="img/footer.jpg">
       
-       <div></div>
        </div></footer>
 
 <script src="js/jquery.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
-</script>
-   <script src="js/jquery-1.10.2.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-       <script type="text/javascript" src="js/itemInfo.js"></script>
-        <script type="text/javascript" src="js/buyInfo.js"></script>
-        <script type="text/javascript" src="js/Slider.js"></script>
-
-    <script >
-    	
-
-
-      
-
-$(document).ready(function(){
- $("#card-holder").click(function(){
-   $('#card').animate({width:'toggle'}, 450)
-   $( "#card" ).css( {"filter":"blur(0px)"});
-    $(".Flex2" ).css( {"filter":"blur(15px)"});
-    $(".Flex" ).css( {"filter":"blur(15px)"});
-     $(".Flex2" ).css( {"pointer-events":" none"});
-    $(".Flex" ).css( {"pointer-events":" none"});
-     
- });
- $(".textClose").click(function(){
-   $('#card').animate({width:'toggle'}, 450)
-     $(".Flex2" ).css( {"filter":"blur(0px)"});
-    $(".Flex" ).css( {"filter":"blur(0px)"});
-     $(".Flex2" ).css( {"pointer-events":" auto"});
-    $(".Flex" ).css( {"pointer-events":" auto"});
-
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/itemInfo.js"></script>
+<script type="text/javascript" src="js/buyInfo.js"></script>
+<script type="text/javascript" src="js/slider.js"></script>
+<script type="text/javascript" src="js/blur.js"></script>
     
- });
-
-
-});
-
-
-
- $( ".image" ).mouseenter(function() {
-
-  $( "img" ).css( {"filter":"blur(7px)"});
-   $( this ).css( {"filter":"blur(0px)"});
-  
-});
-   $( ".image" ).mouseleave(function() {
-  $( "img" ).css( {"filter":"blur(0px)"});
-});
-   $( ".image1" ).mouseenter(function() {
-
-  $( "img" ).css( {"filter":"blur(7px)"});
-   $( this  ).css( {"filter":"blur(0px)"});
-  
-});
-   $( ".image1" ).mouseleave(function() {
-  $( "img" ).css( {"filter":"blur(0px)"});
-});
-
-
-function clock() {
-var d = new Date();
-var hours = d.getHours();
-var minutes = d.getMinutes();
-if (hours <= 9) hours = "0" + hours;
-if (minutes <= 9) minutes = "0" + minutes;
-date_time = "STRANGER " + hours + ":" + minutes;
- document.getElementById("doc_time").innerHTML = date_time;
- setTimeout("clock()", 1000);
-}
-clock();
-
-
-
-
-      
-
-
-// $("#card-holder").click(function(){$("#card").slideToggle(1000)});
-//  var a = {
-//     0: function () {
-//         document.getElementById("card-holder").style.fontWeight=700;
-        
-        
-//     },
-//     1: function () {
-//         document.getElementById("card-holder").style.fontWeight=300;
-       
-         
-//     }
-// }, b = -1;
-// document.getElementById("card-holder").onclick = function () {
-//     a[++b % 2]()
-// };
-
-
-
-
-
-
-</script>
 
 
 </body>

@@ -34,7 +34,7 @@
     <!-- <div z-index=0><img src="img/background.svg"></div> -->
    
     <div class="Flex2">
-      <div  id="doc_time"> </div>
+      <div  id="doc_time">END IN 00d:00h</div>
       <div><a style="cursor:pointer;color:white;" href="index.html">ТОВАРЫ</a></div>
       <div style="font-weight:700;">ИНФОРМАЦИЯ</div> 
       
@@ -62,20 +62,7 @@
  
 
 
-<script >
-function clock() {
-var d = new Date();
-var hours = d.getHours();
-var minutes = d.getMinutes();
-if (hours <= 9) hours = "0" + hours;
-if (minutes <= 9) minutes = "0" + minutes;
-date_time = "STRANGER " + hours + ":" + minutes;
- document.getElementById("doc_time").innerHTML = date_time;
- setTimeout("clock()", 1000);
-}
-clock();
-</script>
-
+<script type="text/javascript" src="js/timer.js"></script>
 
 </body>
 </html>
