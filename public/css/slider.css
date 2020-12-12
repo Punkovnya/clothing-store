@@ -1,0 +1,30 @@
+
+
+.slideshow {
+	padding-top:10%; 
+	width:100%;
+	height:auto;
+   
+  position: relative;
+  margin: auto;
+}
+.mySlides {
+   
+    display: none;
+}
+
+.mySlides > img{
+	 transition:1s;
+}
+
+
+
+@media screen and (max-width:845px) {
+	
+
+.slideshow{
+	display:none;
+}
+
+}
+

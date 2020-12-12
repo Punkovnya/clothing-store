@@ -3,6 +3,13 @@ let count = [1,1,1,1,1,1,1,1,1];
 let price=[1000,650,700,800,1110,1280,600,550,1300];
 let total=0;
 
+timer = setInterval(function () {
+   if(total!=0)
+     $("#buttonBuy").css( {"display":"block"})
+   
+    if(total==0)$("#buttonBuy").css( {"display":"none"})
+   
+}, 10)
 
 
 

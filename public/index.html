@@ -7,24 +7,26 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>STRANGERGEAR</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-     <link href="css/project.css" rel="stylesheet" type="text/css">
+     <link href="css/general.css" rel="stylesheet" type="text/css">
+     <link href="css/main-page.css" rel="stylesheet" type="text/css">
+     <link href="css/basket.css" rel="stylesheet" type="text/css">
+     <link href="css/navbar.css" rel="stylesheet" type="text/css">
+     <link href="css/slider.css" rel="stylesheet" type="text/css">
+     <link href="css/modal-window.css" rel="stylesheet" type="text/css">
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/png">
     <!-- Custome Styles -->
-   <style>
-   	
-       body{
-        
-       	 
-        background-image:url(img/background.svg);
-         background-color:black;
-       }
-   </style>
    
+   <style type="text/css">
+     body{
+      background-image:url(img/background.svg);
+     }
+   </style>
     <link rel="shortcut icon" href="img/favicon.png" type="image/png">
 
 </head>
  <script type="text/javascript" src="js/timer.js"></script>
+
       <div class="modal fade"id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     
@@ -41,13 +43,13 @@
       <div class="modal-footer" id="footer"> </div>
     </div>
   </div>
-  
+ 
 <body>
 	
 	   
     
 
-  
+
 	   
 
 
@@ -64,15 +66,25 @@
     </header>
 
 
+ <section><div class="Flex3" id="card">
 
-<div class="Flex3" id="card">
+  <div id="cardyfi">
+      
+     <div class="textClose">Выйти из корзины</div>
+  </div>
 
-	<div id="cardyfi">
-		 <div class="textClose">Выйти из корзины</div>
-	</div>
+
     <div id="all-price"></div>
-    <div id="buttonBuy">Оформить заказ</div>
-    
+    <form id="form">
+                  
+                    <div class="form-field">
+                        <label>Имя:</label>
+                        <input type="text" style="background:black;border-color:red"required name="name">
+                        <label>Email:</label>
+                        <input type="email" style="background:black;border-color:red" required name="email">
+                    </div>               
+</form>
+    <div><button type="submit" id="buttonBuy" form="form">Оформить заказ</button></div>
     
    </div> 
 
@@ -82,11 +94,11 @@
 <div class="slideshow">
 
   <div class="mySlides">
-    <img src="img/kyoto.jpg" style="height:auto;width:100%">
+    <img src="img/str1.jpg" style="height:auto;width:100%">
   </div>
 
   <div class="mySlides">
-    <img src="img/nm2.png" style="height:auto;width:100%;">
+    <img src="img/str2.png" style="height:auto;width:100%;">
   </div>
   
   </div>
@@ -112,20 +124,21 @@
         <img id="img9" class="image1" src="img/9.png" type="button" data-toggle="modal"  data-target="#exampleModal">
      
     </div>
-    
+    </section>
+
     <footer><div class="FlexFooter">
       
       <img src ="img/footer.jpg">
-      
+     
        </div></footer>
-
+  
 <script src="js/jquery.min.js"></script>
-<script src="js/jquery-1.10.2.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/itemInfo.js"></script>
 <script type="text/javascript" src="js/buyInfo.js"></script>
 <script type="text/javascript" src="js/slider.js"></script>
 <script type="text/javascript" src="js/blur.js"></script>
+<script type="text/javascript" src="js/buy.js"></script>
     
 
 

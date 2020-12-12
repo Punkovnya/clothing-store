@@ -1,0 +1,123 @@
+.textprice{
+	margin-top:20px;
+	padding-top:10px;
+	font-weight:500;
+	font-size:25px;
+	border-top:solid 1px black;	
+}
+.textmodal{
+
+	padding-top:10px;
+	padding-bottom:10px;
+	font-weight:500;
+	font-size:18px;
+	border-bottom:solid 1px black;
+	
+}
+.modal-content{
+	background-position: center; 
+  background-image:url(/img/background.svg) ;
+  background-repeat: no-repeat;
+	height:auto;
+	 background-color:black;
+	 text-align:center;
+	 border: red;
+margin: auto;
+}
+
+
+.modal-dialog{
+border:solid 1px red; /* адаптивность*/
+	background-color:black;
+	   text-align:center;
+	   margin: auto;
+	   height:auto;	 
+}
+
+.btn-secondary{
+	color:white;
+	font-weight:200;
+	 border: 2px black;
+	 padding: 15px;
+	font-size: 25px;
+	 background-color:black;	
+	margin-bottom:10px; 
+	transition:all 0.3s;
+}
+
+
+.modal-footer{
+    border-color: red;
+	height:100px;
+	text-align:center;
+}
+.btn-primary{
+  border:none;
+}
+	.modal{
+		 	padding-top: 100px;
+		 opacity:0.3;
+		 font-family:'let';
+	}
+
+	.text{
+	color:white;	
+	z-index:1;
+	padding:5px;
+	font-weight:200;
+	font-size:18px;  /* адаптивность*/
+	text-indent:10px;
+	
+}
+@media screen and (max-width:845px) {
+	.btn-secondary{
+	 padding: 5px;
+	font-size: 20px;
+	background-color:black;
+	transition:all 0.3s;
+}
+
+.modal-footer{
+	background-color:black;
+	border-color: red;
+	height:70px;
+	
+}
+.modal-dialog{
+    border:solid 1px red; /* адаптивность*/
+	background-color:black;
+	   text-align:center;
+	   margin: auto;
+	   height:auto;
+       width:350px;
+	 
+}
+.text{
+	padding:3px;
+	font-size:15px;  	
+}
+.textprice{
+	font-size:20px;
+}
+.textmodal{
+	font-size:13px;
+	
+}
+.buy{
+	font-weight:700;
+	font-size:10px;
+	cursor:pointer;
+	 line-height:50px;
+}}
+@media screen and (max-width:500px) {
+	.modal-dialog{
+    border:solid 1px red; /* адаптивность*/
+	background-color:black;
+	   text-align:center;
+	   margin: auto;
+	   
+	   height:auto;
+       width:320px;
+	 
+}
+}

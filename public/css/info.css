@@ -1,0 +1,51 @@
+
+
+.Flex{
+
+	   display:flex;
+	   flex-direction: row; 
+	   font-family:'let'; 
+		 align-content:center;
+		  align-items:center;
+		  justify-content:space-around;
+		flex-wrap:wrap;
+	}
+	
+ 
+
+
+
+#infodezign{
+	color:white;		
+    margin-right: 20%;
+	font-weight:200;
+	font-size:160%;
+	display:inline-block;
+	position: absolute;
+	left:20%;
+	top:25%;
+}
+.pr1{
+	padding-top:10%;  
+	width:100%;   
+}
+
+
+
+
+@media screen and (max-width:845px) {
+	
+
+		#infodezign{
+    border-bottom:solid 1px black;
+    margin-right: 10%;
+	font-weight:600;
+	font-size:150%;
+	display:inline-block;
+	position: absolute;
+	left:10%;
+	top:30%;
+}
+
+
+

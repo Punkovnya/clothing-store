@@ -1,0 +1,174 @@
+#card-holder{
+	cursor: pointer;
+}
+	.card-item{
+		
+	margin-left:50px;
+	margin-right:50px;
+	padding-top:20px;
+	padding-bottom:20px;
+	border-bottom:solid 1px black;
+	}
+
+.text-card{
+	z-index:1;
+	font-weight:500;
+	font-size:18px;  
+	text-indent:10px;
+}
+	#card{
+		height: 60%; /* Full-height: remove this if you want "auto" height */
+    width:100%; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right:0;
+     color:white;/* Black */
+    overflow-y:auto;
+    padding-top: 20px;
+    display:none;
+    z-index:3;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+    border-bottom: 2px solid red;
+    white-space: nowrap;
+}
+.form-field{
+
+	margin-left:50px;
+	margin-right:50px;
+	padding-top:20px;
+	padding-bottom:20px;
+	border-bottom:solid 1px black;
+}
+
+.textClose{
+		margin-right:50px;
+		padding-right:50px;
+	cursor:pointer;
+	margin-left: 50px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	padding-top:15px;
+	padding-bottom:15px;
+	font-weight:600;
+	font-size:150%;
+	border-bottom:solid 1px black;
+}
+
+#buttonBuy{
+background:none;
+margin-left:40%;
+margin-right:50%;
+cursor:pointer;
+font-weight:600;
+font-size:150%;
+margin-top: 30px;
+margin-bottom: 30px;
+ border: none;
+ text-decoration: none;
+}
+.minus{
+	-moz-user-select: none;
+-khtml-user-select: none;
+user-select: none;   
+display:inline-block;
+  margin-left: 7px;
+  width: 38px;
+  padding:0px;
+  height: 40px;
+ text-align: center;
+  font-size:27px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: solid 1px black;
+}
+
+#all-price{
+padding-top:20px;
+font-size:200%;
+line-height:10px;
+margin-left:60%;
+display: inline-block;
+
+}
+.price{
+padding-top:30px;
+font-size:170%;
+line-height:10px;
+margin-left:55%;
+display: inline-block;
+
+}
+.count{
+padding-top:30px;
+font-size:22px;
+line-height:10px;
+margin-left:10px;
+display: inline-block;
+
+}
+ .Flex3{
+		
+   display:flex;
+	   flex-direction: row; 
+	   font-family:'let'; 
+		 align-content:center;
+		  align-items:center;
+		  justify-content:space-around;
+		flex-wrap:wrap;
+		overflow:hidden;
+	}
+	@media screen and (max-width:845px) {
+	.form-field{
+    font-size: 10px;
+	margin-left:20px;
+	margin-right:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-bottom:solid 1px black;
+
+
+		.card-item{
+	margin-left:30px;
+	}
+#card{
+		height: 85%;    
+}
+
+
+
+}
+@media screen and (max-width:500px) {
+	.form-field{
+    font-size: 8px;
+	margin-left:20px;
+	margin-right:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-bottom:solid 1px black;
+}
+.price{
+padding-top:30px;
+font-size:15px;
+line-height:10px;
+margin-left:40%;
+}
+.text-card{
+	z-index:1;
+	font-weight:500;
+	font-size:12px;  /* адаптивность*/
+	text-indent:10px;
+}
+#all-price{
+font-size:15px;
+}
+#buttonBuy{
+font-size:110%;
+margin-left:35%;
+}
+
+.textClose{
+	font-size:15px;	
+}
+}
